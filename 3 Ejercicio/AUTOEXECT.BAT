@@ -3,7 +3,7 @@ ECHO CARGANDO MS-DOS
 KEYB sp
 DOSKEY
 PROMPT $T $P$G
-ECHO Pulse una tecla...
+ECHO Pulsa ENTER para continuar...
 TIME >> A:\arranke.txt
 DEVICEHIGH=C:\DOS\OAKCDROM.SYS /D:MSCD001
 CALL SALVAREG.BAT
