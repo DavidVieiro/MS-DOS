@@ -1,7 +1,7 @@
 @echo off
 
 if NOT "%1%" == "" GOTO P01
-echo No has introducido ninguno parametro
+echo No has introducido ningun parametro
 goto eof
 :P01
 if NOT "%2%" == "" GOTO P02
@@ -17,3 +17,4 @@ echo P01 - %1%
 echo P02 - %2%
 echo P03 - %3%
 :eof
+echo Fin del programa.
