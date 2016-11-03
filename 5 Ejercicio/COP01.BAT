@@ -1,5 +1,5 @@
 @echo off
-echo Se van a crear un arbol de directorios en el disquete.
+echo Se van a crear archivos de texto con el nombre de los directorios que los contienen...
 echo Introduce un disquete en la disquetera.
 rem usamos el pause para esperar a que el usuario introduzca el disquete
 pause
