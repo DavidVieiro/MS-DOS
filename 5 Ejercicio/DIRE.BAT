@@ -20,6 +20,8 @@ mkdir A:\SUBDIR3\SUBDIR31
 mkdir A:\SUBDIR3\SUBDIR32
 mkdir A:\SUBDIR3\SUBDIR33
 mkdir A:\SUBDIR3\SUBDIR33\SUBDIR331
+
 echo Comprobando que la estructura se creo correctamente...
 tree A:\
+
 echo Fin del programa.

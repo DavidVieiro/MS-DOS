@@ -3,7 +3,7 @@ echo Se van a crear archivos de texto con el nombre de los directorios que los c
 echo Introduce un disquete en la disquetera.
 rem usamos el pause para esperar a que el usuario introduzca el disquete
 pause
-
+rem con > imprimimos en el archivo indicado el nombre del directorio
 echo A:\SUBDIR1 > A:\SUBDIR1\SUBDIR1.TXT
 echo A:\SUBDIR1\SUBDIR11 > A:\SUBDIR1\SUBDIR11\SUBDIR11.TXT
 echo A:\SUBDIR1\SUBDIR12 > A:\SUBDIR1\SUBDIR12\SUBDIR12.TXT

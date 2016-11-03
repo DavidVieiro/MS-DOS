@@ -3,7 +3,7 @@ echo Se van a borrar todos los archivos que se han creado con COP01.BAT...
 echo Introduce un disquete en la disquetera.
 rem usamos el pause para esperar a que el usuario introduzca el disquete
 pause
-
+rem con DEL borramos el archivo que espcificamos en el parametro.
 del A:\SUBDIR1\SUBDIR1.TXT
 del A:\SUBDIR1\SUBDIR11\SUBDIR11.TXT
 del A:\SUBDIR1\SUBDIR12\SUBDIR12.TXT
