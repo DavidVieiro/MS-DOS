@@ -2,6 +2,7 @@
 
 if NOT "%1%" == "" GOTO P01
 echo No has introducido ninguno parametro
+goto eof
 :P01
 if NOT "%2%" == "" GOTO P02
 echo No has introducido el segundo y tercer parametro
